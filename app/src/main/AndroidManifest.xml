@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.uta.zoaretsmavs.or.badsheep" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".settingACT"
+            android:label="@string/title_activity_setting_act"
+            android:parentActivityName=".Main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.uta.zoaretsmavs.or.badsheep.Main" />
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".Exit2Activity" -->
+        <!-- android:label="@string/title_activity_exit2" -->
+        <!-- android:parentActivityName=".Main" > -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.PARENT_ACTIVITY" -->
+        <!-- android:value="edu.uta.zoaretsmavs.or.badsheep.Main" /> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".About2Activity"
+            android:label="@string/title_activity_about2"
+            android:parentActivityName=".settingACT" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.uta.zoaretsmavs.or.badsheep.settingACT" />
+        </activity>
+    </application>
+
+</manifest>

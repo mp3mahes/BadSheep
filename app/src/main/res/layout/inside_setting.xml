@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="edu.uta.zoaretsmavs.or.badsheep.settingACT"
+    android:id="@+id/activity2"
+    android:focusable="true"
+    android:transitionGroup="false"
+    style="@style/Base.TextAppearance.AppCompat.Display2"
+    android:theme="@style/Animation.AppCompat.DropDownUp"
+    android:focusableInTouchMode="true"
+    android:background="#ff22703d"
+    android:touchscreenBlocksFocus="true"
+    android:clickable="true"
+    android:backgroundTint="@color/bright_foreground_material_light">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/soundstab"
+        android:background="#fffff93c"
+        android:clickable="true"
+        android:layout_above="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:focusableInTouchMode="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/graphicstab"
+        android:background="#ffff8834"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignStart="@+id/imageButton"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/abouttab"
+        android:background="#fffbff42"
+        android:clickable="true"
+        android:focusable="false"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_marginTop="68dp"
+        android:focusableInTouchMode="false" />
+
+</RelativeLayout>

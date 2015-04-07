@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bad Sheep</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_setting_act">Settings</string>
+    <string name="title_activity_about2">About2Activity</string>
+</resources>
